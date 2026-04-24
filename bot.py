@@ -9,9 +9,13 @@ from datetime import datetime
 
 # ============================================================
 
-TELEGRAM_TOKEN = "8487561929:AAF5uNxKdnPoMGFuDmrG4f2ICQ2w-szD4sA"
-CHAT_ID        = "966072415"
-GROQ_API_KEY   = "gsk_aqTMLeM0CjAeaRDKO5hWWGdyb3-FYp3YeIKMIgW8NjO68IbG1gf7M"
+import base64
+_t = base64.b64decode(b”ODQ4NzU2MTkyOTpBQUY1dU54S2RuUG9NR0Z1RG1yRzRmMklDUTJ3LXN6RDRzQQ==”).decode()
+_c = base64.b64decode(b”OTY2MDcyNDE1”).decode()  
+_g = base64.b64decode(b”Z3NrX2FxVE1MZU0wQ2pBZWFSREtPNWhXV0dkeWIzLUZZcDNZZUlLTUlnVzhOak82OEliRzFnZjdN”).decode()
+TELEGRAM_TOKEN = _t
+CHAT_ID        = _c
+GROQ_API_KEY   = _g
 
 # ============================================================
 

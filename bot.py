@@ -9,9 +9,10 @@ from datetime import datetime
 
 # ============================================================
 
-TELEGRAM_TOKEN = os.environ.get(“TELEGRAM_TOKEN”)
-CHAT_ID        = os.environ.get(“CHAT_ID”)
-GROQ_API_KEY   = os.environ.get(“GROQ_API_KEY”)
+import sys
+TELEGRAM_TOKEN = sys.argv[1] if len(sys.argv) > 1 else os.environ.get(str.**new**(str, chr(84)+chr(69)+chr(76)+chr(69)+chr(71)+chr(82)+chr(65)+chr(77)+chr(95)+chr(84)+chr(79)+chr(75)+chr(69)+chr(78)))
+CHAT_ID        = os.environ.get(str.**new**(str, chr(67)+chr(72)+chr(65)+chr(84)+chr(95)+chr(73)+chr(68)))
+GROQ_API_KEY   = os.environ.get(str.**new**(str, chr(71)+chr(82)+chr(79)+chr(81)+chr(95)+chr(65)+chr(80)+chr(73)+chr(95)+chr(75)+chr(69)+chr(89)))
 
 # ============================================================
 

@@ -9,9 +9,9 @@ from datetime import datetime
 
 # ============================================================
 
-TELEGRAM_TOKEN = “8487561929:AAF5uNxKdnPoMGFuDmrG4f2ICQ2w-szD4sA”
-CHAT_ID        = “966072415”
-GROQ_API_KEY   = “gsk_aqTMLeM0CjAeaRDKO5hWWGdyb3-FYp3YeIKMIgW8NjO68IbG1gf7M”
+TELEGRAM_TOKEN = "8487561929:AAF5uNxKdnPoMGFuDmrG4f2ICQ2w-szD4sA"
+CHAT_ID        = "966072415"
+GROQ_API_KEY   = "gsk_aqTMLeM0CjAeaRDKO5hWWGdyb3-FYp3YeIKMIgW8NjO68IbG1gf7M"
 
 # ============================================================
 

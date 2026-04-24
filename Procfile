@@ -1,2 +1,2 @@
-worker: python bot_env.py 
+python bot.py.
 
